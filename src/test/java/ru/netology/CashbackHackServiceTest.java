@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 public class CashbackHackServiceTest {
 
     @Test
-    void shouldCalculateHackService(){
+    public void shouldCalculateHackService(){
         CashbackHackService cashbackHackService = new CashbackHackService();
         int amount = 900;
 
